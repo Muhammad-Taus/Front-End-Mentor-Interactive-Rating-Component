@@ -1,0 +1,22 @@
+:root {
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-LightGrey: hsl(217, 12%, 63%);
+    --clr-DarkBlue: hsl(213, 19%, 18%);
+    --clr-VeryDarkBlue: hsl(216, 12%, 8%);
+    --root: 15px;
+}
+
+*,*::before, *::after{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
