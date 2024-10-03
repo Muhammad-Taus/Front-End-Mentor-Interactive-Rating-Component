@@ -14,9 +14,47 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+}
+
 body {
     font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: var(--clr-VeryDarkBlue);
+    color: var(--clr-White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    max-width: 415px;
+    padding: 1rem;
+    background-color: var(--clr-VeryDarkBlue);
+    border: 2px solid red;
+}
+
+.container p, .container ul li{
+    color: var(--clr-LightGrey);
+}
+
+.container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container ul li{
+    background-color: var(--clr-DarkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
