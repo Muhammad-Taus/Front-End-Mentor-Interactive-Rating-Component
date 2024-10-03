@@ -1,8 +1,10 @@
 :root {
     --clr-White: hsl(0, 0%, 100%);
     --clr-LightGrey: hsl(217, 12%, 63%);
-    --clr-DarkBlue: hsl(213, 19%, 18%);
+    --clr-DarkBlue: hsl(213, 19%, 18%); 
+    --clr-VeryDarkBlueShade: hsl(215, 20%, 16%);
     --clr-VeryDarkBlue: hsl(216, 12%, 8%);
+    --clr--Yellow: hsl(26, 97%, 53%);
     --root: 15px;
 }
 
@@ -33,9 +35,30 @@ body {
 .container{
     width: 80%;
     max-width: 415px;
-    padding: 1rem;
-    background-color: var(--clr-VeryDarkBlue);
-    border: 2px solid red;
+    padding: 2rem;
+    background-color: var(--clr-VeryDarkBlueShade);
+    border-radius: 25px;
+}
+
+.svg-logo{
+    width: 45px;
+    height: 45px;
+    background-color: var(--clr-DarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.svg-logo img{
+    width: 40%;
+    height: 40%;
+}
+
+.container h2{
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
 }
 
 .container p, .container ul li{
@@ -46,6 +69,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-block: 1.875rem; /*30px*/
 }
 
 .container ul li{
@@ -57,4 +81,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container ul li:hover, .container ul li:focus{
+    background-color: var(--clr--Yellow);
+    color: var(--clr-VeryDarkBlue);
+}
+
+.container ul li:active{
+    background-color: var(--clr-White);
+    color: var(--clr-VeryDarkBlue);
+}
+
+button{
+    width: 100%;
+    background-color: var(--clr--Yellow);
+    padding: 0.8rem;
+    border-radius: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover, button:focus{
+    background-color: var(--clr-White);
 }
