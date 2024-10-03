@@ -5,6 +5,8 @@
     --clr-VeryDarkBlueShade: hsl(215, 20%, 16%);
     --clr-VeryDarkBlue: hsl(216, 12%, 8%);
     --clr--Yellow: hsl(26, 97%, 53%);
+    --clr--YellowLight: hsl(19, 67%, 58%);
+
     --root: 15px;
 }
 
@@ -40,7 +42,7 @@ body {
     border-radius: 25px;
 }
 
-.svg-logo{
+.svg-logo-star{
     width: 45px;
     height: 45px;
     background-color: var(--clr-DarkBlue);
@@ -55,7 +57,7 @@ body {
     height: 40%;
 }
 
-.container h2{
+.index-heading{
     padding-top: 2.5rem;
     padding-bottom: 2rem;
     font-size: 1.8rem;
@@ -109,4 +111,42 @@ button{
 
 button:hover, button:focus{
     background-color: var(--clr-White);
+}
+
+
+
+/* Thank you page */
+
+.svg-logo-thank-you{
+    display: flex;
+    justify-content: center;
+}
+
+.rating-paragraph-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2.75rem; /*44px*/
+}
+
+.rating-paragraph{
+    color: var(--clr--YellowLight) !important;
+    background-color: var(--clr-DarkBlue);
+    width: 55%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    
+    
+}
+
+.rating-heading, .rating-footer{
+    text-align: center;
+}
+
+.rating-footer{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
