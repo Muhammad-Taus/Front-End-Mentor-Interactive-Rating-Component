@@ -1,7 +1,7 @@
 // List items active inactive states, rating value retrival
 // Select all list items
 const listItems = document.querySelectorAll('.container ul li');
-const rating = document.querySelectorAll('.rating');
+
 
 // Declare a variable to store the selected rating value
 let ratingValue = '';
