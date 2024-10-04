@@ -37,15 +37,17 @@
       </p>
 
 
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-      </ul>
+      <form id="ratingForm" action="index.html" method="POST">
+        <ul>
+          <li><input class="rating" type="hidden" name="rating" value="1">1</li>
+          <li><input class="rating" type="hidden" name="rating" value="2">2</li>
+          <li><input class="rating" type="hidden" name="rating" value="3">3</li>
+          <li><input class="rating" type="hidden" name="rating" value="4">4</li>
+          <li><input class="rating" type="hidden" name="rating" value="5">5</li>
+        </ul>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
 
-      <button type="submit" class="btn-submit">Submit</button>
 
     </section>
 
@@ -58,8 +60,8 @@
       </div>
 
       <div class="rating-paragraph-container">
-        <p class="rating-paragraph">
-          You selected 4 out of 5
+        <p class="rating-paragraph" id="selected-rating">
+          <!-- You selected <span id="selected-rating"></span> out of 5 -->
         </p>
       </div>
 
