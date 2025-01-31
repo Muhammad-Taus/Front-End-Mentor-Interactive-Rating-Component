@@ -22,7 +22,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Github](https://github.com/Muhammad-Taus/Front-End-Mentor-Interactive-Rating-Component)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL]([https://your-live-site-url.com](https://mt-fem-interactive-rating-component.netlify.app/))
 
 ## My process
 
